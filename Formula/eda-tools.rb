@@ -6,7 +6,7 @@ class EdaTools < Formula
 
   depends_on "jasonhowk/eda-tools/icarus-verilog@12"
   depends_on "jasonhowk/eda-tools/digital-logic"
-  depends_on "jasonhowk/eda-tools/gtkwave"
+  depends_on "jasonhowk/eda-tools/gtkwave4"
 
   def install
     # intentionally empty — this is a meta-formula
