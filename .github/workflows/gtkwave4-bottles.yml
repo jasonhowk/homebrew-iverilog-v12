@@ -24,7 +24,7 @@ jobs:
 
       - name: Build bottle and upload to release
         run: |
-          brew install --build-bottle jasonhowk/eda-tools/gtkwave4
+          brew install --build-bottle --overwrite jasonhowk/eda-tools/gtkwave4
           brew bottle --json jasonhowk/eda-tools/gtkwave4
           formula_version=$(jq -r '.[].formula.pkg_version' *.json)
           release_tag="gtkwave4-${formula_version}"

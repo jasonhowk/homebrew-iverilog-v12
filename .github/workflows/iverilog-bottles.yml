@@ -1,4 +1,4 @@
-name: Build and Publish Bottles
+name: Build and Publish icarus-iverilog Bottles
 
 on:
   workflow_dispatch:
